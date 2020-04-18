@@ -219,4 +219,7 @@ footer .selection{
   margin: 0 2rem;
   color: #4a4948;
 }
+footer .selection:focus{
+  outline: none;
+}
 /* fine footer */
