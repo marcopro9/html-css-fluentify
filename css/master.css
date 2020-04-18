@@ -104,6 +104,12 @@ ul{
 /* fine header */
 
 /* inizio main */
+main .help{
+  position: fixed;
+  right: 10%;
+  bottom: 1.5rem;
+  height: 2.2rem;
+}
   /* inizio banner */
   main .banner{
     background-color: #c4c1b3;
@@ -132,7 +138,7 @@ ul{
     text-align: center;
   }
   main .centercomputer, .rightdoc{
-    margin-left: 10%;
+    margin-left: 12%;
   }
   main figure .profile{
     width:15rem;

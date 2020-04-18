@@ -2,7 +2,7 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>html-css-fluentify</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
@@ -37,7 +37,7 @@
       <!-- inizio call to action -->
       <div class="cta">
         <h1>Scegli l'inglese studiato per i professionisti</h1>
-        <a class="btn-green"href="#">STRUTTURA UN PIANO</a>
+        <a class="btn-green" href="#">STRUTTURA UN PIANO</a>
       </div>
       <!-- fine call to action -->
     </header>
@@ -45,6 +45,10 @@
 
     <!-- inizio main -->
     <main>
+      <div class="help">
+        <a class="btn-green" href="#">HELP</a>
+      </div>
+
       <!-- inizio banner -->
       <div class="banner">
         <h3 class="title-h3">Le scuole di lingua tradizionali non sono efficaci</h3>
@@ -91,7 +95,7 @@
       <div class="col-container clearfix line">
         <div class="col left-mountain">
           <figure>
-            <img class="mountain"src="img/mountain.svg" alt="mountain">
+            <img class="mountain" src="img/mountain.svg" alt="mountain">
           </figure>
         </div>
         <div class="col right-text">
@@ -110,13 +114,15 @@
         <h2 class="title-h2">Struttura un piano</h2>
       </div>
       <div class="col right">
-        <label class="text" for="selection">Sono:</label>
-        <select class="selection"  name="B o B">
-          <option value="" disabled selected>Seleziona</option>
-          <option value="Bello">Bello</option>
-          <option value="Brutto">Brutto</option>
-        </select>
-        <input type="submit" value="VISUALIZZA IL TUO PIANO" class="btn-green">
+        <form action="index.html" method="post">
+          <label class="text">Sono:</label>
+          <select class="selection"  name="B o B">
+            <option value="" disabled selected>Seleziona</option>
+            <option value="Bello">Bello</option>
+            <option value="Brutto">Brutto</option>
+          </select>
+          <input type="submit" value="VISUALIZZA IL TUO PIANO" class="btn-green">
+        </form>
       </div>
     </footer>
     <!-- fine footer -->
