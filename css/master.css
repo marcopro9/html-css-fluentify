@@ -41,7 +41,7 @@ ul{
     nav{
       padding-top: 1rem;
     }
-    header .col, main .col{
+    header .col, main .col, footer .col{
       float: left;
     }
     header nav .logo{
@@ -91,13 +91,14 @@ ul{
     font-size: 6rem;
     margin-bottom: 5rem;
   }
-  header .cta .btn-green{
+  .btn-green{
     color: white;
     font-size: 1.5rem;
     padding: 2rem 1.4rem;
     background-color: #4bba0f;
     border: 0.2rem solid #4bba0f;
     border-radius: 0.5rem;
+    text-decoration: none;
   }
   /* fine call to action */
 /* fine header */
@@ -110,7 +111,7 @@ ul{
     padding: 5.8rem 0;
     text-align: center;
   }
-  main .banner .title-banner{
+  main .banner .title-h3{
     font-size: 3rem;
     padding-bottom: 1.5rem;
     font-weight: 800;
@@ -155,7 +156,7 @@ ul{
     margin: 2rem 40%;
 
   }
-  main .text{
+  main .text, footer .text{
     font-size: 2rem;
     color: #4a4948;
     font-weight: 500;
@@ -168,17 +169,17 @@ ul{
     border-top: 0.2rem solid lightgrey;
     margin: 0 4%;
   }
-  main .leftmountain{
+  main .left-mountain{
     padding: 0 3%;
   }
-  main .leftmountain .mountain{
+  main .left-mountain .mountain{
     width: 55rem;
   }
   main .right-text{
     width:35%;
     margin-left: 5%;
   }
-  main .right-text .title-right{
+  .title-h2{
     font-size: 4rem;
     margin-bottom: 2rem;
   }
@@ -188,3 +189,28 @@ ul{
   }
   /* fine 2 columns infos */
 /* fine main */
+
+/* inizio footer */
+footer{
+  padding: 7rem 10%;
+  background-color: #c4c1b3;
+  height: 20rem;
+}
+footer .left{
+  width: 30%;
+}
+footer .right{
+  width: 55%;
+  margin-left: 10%;
+  text-align: right;
+}
+footer .selection{
+  background-color: #c4c1b3;
+  padding: 0.5rem 5rem 0 0;
+  border: none;
+  border-bottom: 0.2rem solid #959695;
+  font-size: 1.8rem;
+  margin: 0 2rem;
+  color: #4a4948;
+}
+/* fine footer */
