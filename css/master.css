@@ -44,7 +44,7 @@ a{
     nav{
       padding-top: 1rem;
     }
-    header nav .col{
+    header .col, main .col{
       float: left;
     }
     header nav .logo{
@@ -78,8 +78,8 @@ a{
     }
     header nav .menu-right .btn-green-nav{
       padding: 0.7rem 1rem;
-      background-color: #3a9c06;
-      border: 0.2rem solid #3a9c06;
+      background-color: #4bba0f;
+      border: 0.2rem solid #4bba0f;
       border-radius: 0.5rem;
     }
   /* fine nav */
@@ -97,10 +97,59 @@ a{
     color: white;
     font-size: 1.5rem;
     padding: 2rem 1.4rem;
-    background-color: #3a9c06;
-    border: 0.2rem solid #3a9c06;
+    background-color: #4bba0f;
+    border: 0.2rem solid #4bba0f;
     border-radius: 0.5rem;
   }
-
-
+  /* fine call to action */
 /* fine header */
+
+/* inizio main */
+  /* inizio banner */
+  main .banner{
+    background-color: #c4c1b3;
+    height: 20rem;
+    padding: 5.8rem 0;
+    text-align: center;
+  }
+  main .banner .title-banner{
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    font-weight: 800;
+  }
+  main .banner .text-banner{
+    font-size: 2.2rem;
+    color: #4a4948;
+    font-weight: 500;
+  }
+  /* fine banner */
+
+  /* inizio 3 columns infos */
+  main .three-col-container{
+    padding: 0 10%;
+  }
+  main .left, .center, .right{
+    width:23%;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  main .center, .right{
+    margin-left: 10%;
+
+  }
+  main .profile{
+    width:20rem;
+    margin-bottom: 2rem;
+  }
+
+  main .computer{
+    width: 32rem;
+    margin-bottom: 3.3rem;
+  }
+  main figcaption{
+    font-size: 2.5rem;
+    color: #4bba0f;
+    font-weight: 600;
+  }
+  /* fine 3 columns infos */
+/* fine main */
